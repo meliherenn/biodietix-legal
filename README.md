@@ -78,9 +78,9 @@ flutter build appbundle --release --flavor prod \
   --dart-define=BIODIETIX_API_URL=https://YOUR_PRODUCTION_API_HOST \
   --dart-define=BIODIETIX_PRIVACY_POLICY_URL=https://meliherenn.github.io/biodietix-legal/privacy-policy.html \
   --dart-define=BIODIETIX_ACCOUNT_DELETION_URL=https://meliherenn.github.io/biodietix-legal/delete-account.html \
-  --dart-define=BIODIETIX_meliheren2834@gmail.com=meliheren2834@gmail.com \
+  --dart-define=BIODIETIX_SUPPORT_EMAIL=meliheren2834@gmail.com \
   --dart-define=BIODIETIX_APP_CHECK_ENABLED=true
 ```
 
-Replace `YOUR_PRODUCTION_API_HOST` and `meliheren2834@gmail.com`, increment `--build-number` for every Play upload, and never upload an AAB built with placeholders.
+Replace `YOUR_PRODUCTION_API_HOST` and `SUPPORT_EMAIL`, increment `--build-number` for every Play upload, and never upload an AAB built with placeholders.
 
